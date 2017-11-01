@@ -68,9 +68,6 @@ body {
 	transform: translate(-50%);
 }
 
-.noComments {
-	
-}
 
 /*-----------------------------------------*/
 /*Section Post-a-comment*/
@@ -85,13 +82,13 @@ body {
 	transform: translate(-50%);
 }
 
-textarea
-{
-  border:2px solid #D6D6D6;
-  border-radius: 10px;
-  width:100%;
-  margin:5px 0;
-  padding:3px;
+textarea {
+  	border:2px solid #D6D6D6;
+  	border-radius: 10px;
+  	width:100%;
+	height: 180px;
+  	margin:5px 0;
+  	padding:3px;
 }
 
 .btn-send {
@@ -156,6 +153,17 @@ p {
 	}
 	
 	p {
+		text-align: center;
+	}
+	
+	.btn-send {
+		border: 0;
+		position: relative;
+		right: 50%;
+		transform: translate(50%);	
+	}
+	
+	#noComments {
 		text-align: center;
 	}
 }
