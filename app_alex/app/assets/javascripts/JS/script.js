@@ -8,4 +8,3 @@ function myFunction() {
 	document.getElementById("noComments").innerHTML="";
 	document.getElementById("words").value = '';
 }
-}
